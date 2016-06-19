@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+<title>Animals</title>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/handlebars-v3.0.3.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="AnimalsData.js"></script>
+<script src="assignment.js"></script>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="assignment.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Animals Category</h1>
+      </div>    
+
+      <ul class="nav nav-tabs">
+            <li role="" class="active"><a href="#" id="category-tab">Category</a></li>
+            <li role=""><a href="#" id="animal-tab">Animals</a></li>
+            <li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
+          </ul>
+      <br/><br/>
+
+      <div id="content"  class="container-fluid"  role="main">
+      </div>
+  </div> 
+
+<script id="category-template" type="text/x-handlebars-template">
+<!-- templatefor each category -->
+  <div class="row">
+
+    {{#each category}}
+    <div class="col-xs-12 col-md-3"> 
+        <div class="category-thumbnail"  data-id="{{@index}}">
+          <img class="crop-img" src="{{thumbnail}}" alt="{{name}}"/> 
+          <div class="caption">
+
+              <h4> {{name}} </h4>
+              <p>{{animals.length}} Animals</p>
+          </div>
+         </div>
+    </div>
+
+    {{/each}}
+
+  </div> 
+ </script>
+
+<!--
+<script id="animals-template" type="text/x-handlebars-template">
+  <div class="row">
+
+    {{#each animals}}
+    <div class="col-xs-12 col-md-3"> 
+        <div class="album-thumbnail"  data-id="{{@index}}">
+          <img class="crop-img" src="{{animals.image1}}" alt="{{name}}"/> 
+            
+          <div class="caption">
+              <h4> {{name}} </h4>
+              <p>{{description}}</p>
+              <p>2 Photos</p>
+          </div>
+         </div>
+    </div> 
+    {{/each}}
+
+  </div> 
+ </script>
+-->
+
+<script id="photos-template" type="text/x-handlebars-template"><!-- templatefor photos -->
+  <div class="row">
+<!-- templatefor eachphoto -->
+    {{#each animals}}
+    <div class="col-xs-12 col-md-12"> 
+
+        <img class="photo-thumbnail" src="{{image1}}" alt="{{name}}"/ data-id="1"> 
+        <img class="photo-thumbnail" src="{{image2}}" alt="{{name}}"/ data-id="2">  
+        <div class="caption">
+            <h3>{{name}}</h3>
+            <blockquote><p class="text-justify pindent">{{description}}</p></blockquote>
+         </div>
+      </div>
+       
+    </div> 
+    {{/each}}
+
+  </div> 
+</script>
+
+<script id="photo-template" type="text/x-handlebars-template">
+  <div class="row">
+    <div> 
+        <img class="large-img col-xs-12 col-md-12" src="{{image}}" alt=""/> 
+          
+        <div class="caption">
+            <h3>{{name}}</h3>
+            <!--<blockquote><p>{{description}}</p></blockquote>-->
+        </div>
+      </div> 
+
+  </div>
+</script>
+
+<script id="slideshow-template" type="text/x-handlebars-template">
+<!-- templatefor slide -->
+  <div class="row">
+    <div class="col-md-6">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          {{#each animals}}
+            <div class="item {{#if @first}}active{{/if}}">
+             <img class="carousel-img" src="{{image1}}" alt="{{name}}"/> 
+             <img class="carousel-img" src="{{image2}}" alt="{{name}}"/> 
+            <div class="carousel-caption">
+              Image caption
+            </div>
+          </div> <!-- / carousel item -->
+          {{/each}}
+
+        </div>
+
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div> 
+  </div> 
+</div>
+</script>
+
+
+</body>
+</html>
