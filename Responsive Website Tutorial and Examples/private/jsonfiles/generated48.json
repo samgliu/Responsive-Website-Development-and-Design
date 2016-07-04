@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "576b75cb7c29fee480e63725",
+    "index": 0,
+    "guid": "05a1552a-c97f-4dfc-9f2c-25c00567f144",
+    "isActive": true,
+    "balance": "$2,104.09",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "green",
+    "name": "Marilyn Landry",
+    "gender": "female",
+    "company": "ENVIRE",
+    "email": "marilynlandry@envire.com",
+    "phone": "+1 (945) 437-2757",
+    "address": "890 Jamaica Avenue, Hollymead, Michigan, 9590",
+    "about": "Dolore voluptate nulla reprehenderit cupidatat nostrud cillum do culpa cillum quis. Cillum ex exercitation cillum aliqua aliqua in sit reprehenderit sint est esse. Cupidatat dolore officia sint quis voluptate. Deserunt deserunt sunt amet nisi ipsum exercitation reprehenderit nostrud est aliqua deserunt do.\r\n",
+    "registered": "2015-06-07",
+    "latitude": -52.559375,
+    "longitude": -84.667912,
+    "tags": [
+      "ex",
+      "eu",
+      "proident",
+      "adipisicing",
+      "tempor",
+      "voluptate",
+      "occaecat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Howe Campos"
+      },
+      {
+        "id": 1,
+        "name": "Laura Fulton"
+      },
+      {
+        "id": 2,
+        "name": "Lucile Travis"
+      }
+    ],
+    "greeting": "Hello, Marilyn Landry! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "576b75cb0666ab6c7bdb6659",
+    "index": 1,
+    "guid": "9d6a326a-f84c-45fe-96e7-3e893b0c3f40",
+    "isActive": false,
+    "balance": "$3,544.64",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": "Summer Salinas",
+    "gender": "female",
+    "company": "BOINK",
+    "email": "summersalinas@boink.com",
+    "phone": "+1 (858) 577-2901",
+    "address": "113 Aviation Road, Cobbtown, Florida, 8397",
+    "about": "Ad ut consequat veniam sit cupidatat in mollit laboris deserunt voluptate culpa. Consequat in proident excepteur ea ex proident quis excepteur. Proident ullamco anim excepteur ad ex esse proident incididunt. Esse anim in dolor ex quis minim cupidatat in consequat ullamco anim.\r\n",
+    "registered": "2015-07-18",
+    "latitude": -87.849878,
+    "longitude": -67.586668,
+    "tags": [
+      "veniam",
+      "adipisicing",
+      "do",
+      "cillum",
+      "cupidatat",
+      "incididunt",
+      "fugiat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Cantu Castro"
+      },
+      {
+        "id": 1,
+        "name": "Patti Stark"
+      },
+      {
+        "id": 2,
+        "name": "Stevenson Griffin"
+      }
+    ],
+    "greeting": "Hello, Summer Salinas! You have 4 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "576b75cbc4e46058c7aa603c",
+    "index": 2,
+    "guid": "a548be40-4ced-404c-b67b-a76e43274422",
+    "isActive": true,
+    "balance": "$2,374.49",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": "Branch Sims",
+    "gender": "male",
+    "company": "ZOUNDS",
+    "email": "branchsims@zounds.com",
+    "phone": "+1 (897) 580-3671",
+    "address": "118 Woodside Avenue, Gwynn, Federated States Of Micronesia, 6921",
+    "about": "Sunt ea laboris consequat sunt dolor eu pariatur mollit ea nisi sint. Exercitation laboris Lorem non magna duis ipsum nostrud. Commodo exercitation eu ut elit culpa pariatur dolore ullamco pariatur irure ut consequat. Fugiat velit proident id deserunt incididunt id sint. Pariatur ex incididunt dolor consequat occaecat non eu consequat elit quis laborum cillum.\r\n",
+    "registered": "2014-01-26",
+    "latitude": 26.854132,
+    "longitude": 113.975476,
+    "tags": [
+      "duis",
+      "pariatur",
+      "anim",
+      "veniam",
+      "fugiat",
+      "duis",
+      "qui"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Eddie Chapman"
+      },
+      {
+        "id": 1,
+        "name": "Mayo Hayes"
+      },
+      {
+        "id": 2,
+        "name": "Hannah Wiley"
+      }
+    ],
+    "greeting": "Hello, Branch Sims! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "576b75cb7080cbdf2f215188",
+    "index": 3,
+    "guid": "898d347e-249e-4041-a478-8c0b086bfa03",
+    "isActive": false,
+    "balance": "$2,961.15",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Stephens Hines",
+    "gender": "male",
+    "company": "NEBULEAN",
+    "email": "stephenshines@nebulean.com",
+    "phone": "+1 (884) 547-2982",
+    "address": "871 Newkirk Avenue, Chumuckla, Utah, 6773",
+    "about": "Culpa laboris ex nisi excepteur dolor aute ex deserunt in officia. Qui labore adipisicing incididunt pariatur magna magna ut non. Do pariatur consequat occaecat enim excepteur ipsum qui incididunt est dolor nisi. Dolore sit anim velit Lorem irure ullamco ipsum enim do esse.\r\n",
+    "registered": "2014-07-07",
+    "latitude": -27.044811,
+    "longitude": 176.428883,
+    "tags": [
+      "voluptate",
+      "velit",
+      "ea",
+      "et",
+      "sunt",
+      "ex",
+      "voluptate"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Aimee Cabrera"
+      },
+      {
+        "id": 1,
+        "name": "Tamra Gill"
+      },
+      {
+        "id": 2,
+        "name": "Hawkins Burns"
+      }
+    ],
+    "greeting": "Hello, Stephens Hines! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b75cba45569179e77818c",
+    "index": 4,
+    "guid": "9c9c9b05-1d0d-4999-b651-7ebaa529638a",
+    "isActive": true,
+    "balance": "$2,916.17",
+    "picture": "http://placehold.it/32x32",
+    "age": 26,
+    "eyeColor": "brown",
+    "name": "Combs Todd",
+    "gender": "male",
+    "company": "INTERFIND",
+    "email": "combstodd@interfind.com",
+    "phone": "+1 (833) 570-3614",
+    "address": "114 Aberdeen Street, Sultana, Nebraska, 8205",
+    "about": "Consequat quis cupidatat mollit qui magna veniam ea ad. Lorem sunt ut ullamco exercitation sint Lorem voluptate officia. Nisi irure dolor proident sit esse ullamco et sunt qui consectetur aliquip esse irure. Pariatur officia culpa est reprehenderit ad aute id nisi laborum sit consectetur consectetur esse. Aute incididunt duis adipisicing pariatur.\r\n",
+    "registered": "2014-09-05",
+    "latitude": -59.526289,
+    "longitude": -4.682022,
+    "tags": [
+      "est",
+      "ad",
+      "Lorem",
+      "fugiat",
+      "cillum",
+      "tempor",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Dixie Cain"
+      },
+      {
+        "id": 1,
+        "name": "Beverly Fuentes"
+      },
+      {
+        "id": 2,
+        "name": "Rojas Hudson"
+      }
+    ],
+    "greeting": "Hello, Combs Todd! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]

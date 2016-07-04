@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "576b7582c02375a635392267",
+    "index": 0,
+    "guid": "0df6b34b-ab23-4a72-bd70-481c83736c1a",
+    "isActive": true,
+    "balance": "$2,381.56",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": "Stewart Bradley",
+    "gender": "male",
+    "company": "ATOMICA",
+    "email": "stewartbradley@atomica.com",
+    "phone": "+1 (975) 582-2373",
+    "address": "768 Eckford Street, Craig, California, 6782",
+    "about": "Voluptate elit eiusmod commodo magna nulla irure id ullamco id ea. Id amet officia eiusmod reprehenderit irure esse excepteur amet. Tempor est elit commodo laborum nulla minim id dolore tempor esse. Veniam eiusmod culpa cillum qui ipsum enim veniam laboris commodo laborum minim velit nisi. Quis ad nostrud irure Lorem non ullamco elit culpa laborum minim cupidatat officia consectetur excepteur. Aute eiusmod eiusmod nisi eiusmod incididunt deserunt ad elit esse esse. Deserunt laboris reprehenderit consequat duis enim dolor dolor adipisicing pariatur duis.\r\n",
+    "registered": "2015-01-22",
+    "latitude": -21.821648,
+    "longitude": -163.378383,
+    "tags": [
+      "elit",
+      "ut",
+      "do",
+      "amet",
+      "dolore",
+      "ex",
+      "ea"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Evangeline Santos"
+      },
+      {
+        "id": 1,
+        "name": "Elma Robbins"
+      },
+      {
+        "id": 2,
+        "name": "Jeannie Humphrey"
+      }
+    ],
+    "greeting": "Hello, Stewart Bradley! You have 2 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "576b7582f4aaffdcb4f57501",
+    "index": 1,
+    "guid": "eef26f6a-a533-4364-a633-99f63ca2ca2f",
+    "isActive": true,
+    "balance": "$2,254.65",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": "Marquita Le",
+    "gender": "female",
+    "company": "ISBOL",
+    "email": "marquitale@isbol.com",
+    "phone": "+1 (875) 592-2395",
+    "address": "722 Sunnyside Avenue, Klondike, Wyoming, 6414",
+    "about": "Adipisicing cillum aute mollit ipsum incididunt officia ullamco ad. Qui enim exercitation quis excepteur nostrud commodo in. Anim in cupidatat id cillum duis sunt nostrud voluptate.\r\n",
+    "registered": "2015-06-25",
+    "latitude": 43.433649,
+    "longitude": 26.352699,
+    "tags": [
+      "ullamco",
+      "ea",
+      "dolore",
+      "nulla",
+      "nisi",
+      "non",
+      "excepteur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Tracy Rocha"
+      },
+      {
+        "id": 1,
+        "name": "Henderson Ward"
+      },
+      {
+        "id": 2,
+        "name": "Knapp Kramer"
+      }
+    ],
+    "greeting": "Hello, Marquita Le! You have 1 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "576b7582c99281b3bb0f2429",
+    "index": 2,
+    "guid": "3fa784b3-93fa-41b0-bf69-d10c41d817ec",
+    "isActive": true,
+    "balance": "$2,798.72",
+    "picture": "http://placehold.it/32x32",
+    "age": 26,
+    "eyeColor": "brown",
+    "name": "Casandra Bolton",
+    "gender": "female",
+    "company": "ASSISTIX",
+    "email": "casandrabolton@assistix.com",
+    "phone": "+1 (827) 413-2709",
+    "address": "313 Brown Street, Dahlen, Maine, 1807",
+    "about": "Ullamco aliquip eiusmod labore minim minim. Excepteur esse tempor fugiat quis ad et aliquip occaecat ea sunt. Irure sunt magna incididunt cillum labore id anim.\r\n",
+    "registered": "2016-04-18",
+    "latitude": 89.142923,
+    "longitude": -128.233397,
+    "tags": [
+      "nisi",
+      "reprehenderit",
+      "nostrud",
+      "labore",
+      "mollit",
+      "elit",
+      "magna"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ila Cummings"
+      },
+      {
+        "id": 1,
+        "name": "Fields Clay"
+      },
+      {
+        "id": 2,
+        "name": "Duncan Dillard"
+      }
+    ],
+    "greeting": "Hello, Casandra Bolton! You have 9 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b7582271398dc388a6669",
+    "index": 3,
+    "guid": "2cbf0cfa-6bcb-4c9e-8820-ac3331f27c6d",
+    "isActive": true,
+    "balance": "$3,157.61",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Lynnette Ryan",
+    "gender": "female",
+    "company": "KEGULAR",
+    "email": "lynnetteryan@kegular.com",
+    "phone": "+1 (946) 494-3189",
+    "address": "906 Russell Street, Ivanhoe, Nevada, 8005",
+    "about": "Cupidatat dolor dolor laboris ut est reprehenderit non. Fugiat culpa nulla amet ex. Amet est elit ipsum ex ipsum dolore exercitation laborum consectetur anim excepteur fugiat officia voluptate. Consequat pariatur consequat consectetur reprehenderit ut est velit aliqua. Amet occaecat minim voluptate do laborum mollit elit dolor do dolore sint sint dolor. Officia est culpa sunt adipisicing sint aliqua in id elit aliquip esse sit.\r\n",
+    "registered": "2016-02-28",
+    "latitude": 26.73797,
+    "longitude": -101.210997,
+    "tags": [
+      "consequat",
+      "dolor",
+      "exercitation",
+      "dolor",
+      "occaecat",
+      "culpa",
+      "mollit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Strong Bernard"
+      },
+      {
+        "id": 1,
+        "name": "Sexton Mays"
+      },
+      {
+        "id": 2,
+        "name": "Fuller Ochoa"
+      }
+    ],
+    "greeting": "Hello, Lynnette Ryan! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "576b75825ff513c18f866ff8",
+    "index": 4,
+    "guid": "0448728e-bcbf-4d99-83ba-f8e690961a4b",
+    "isActive": true,
+    "balance": "$2,656.36",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": "Lorie Wilkinson",
+    "gender": "female",
+    "company": "HATOLOGY",
+    "email": "loriewilkinson@hatology.com",
+    "phone": "+1 (852) 549-2166",
+    "address": "336 Aster Court, Kerby, Michigan, 4773",
+    "about": "Consequat nisi quis esse ullamco do nisi eu velit nisi proident commodo eu aute. Adipisicing nostrud nisi do enim. Nostrud in ipsum mollit occaecat cillum nulla officia aliqua ex reprehenderit qui. Nisi dolore excepteur deserunt elit aliqua reprehenderit ea ullamco elit excepteur. Occaecat adipisicing id voluptate sit sunt laboris labore id enim consequat non. Nulla aliqua occaecat cupidatat culpa proident in cupidatat proident excepteur voluptate anim amet. Irure sit cillum est voluptate consequat minim occaecat velit aliquip exercitation.\r\n",
+    "registered": "2014-10-26",
+    "latitude": -19.997956,
+    "longitude": 70.713343,
+    "tags": [
+      "et",
+      "reprehenderit",
+      "reprehenderit",
+      "mollit",
+      "ex",
+      "esse",
+      "amet"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Selma Bowers"
+      },
+      {
+        "id": 1,
+        "name": "Patrice Beck"
+      },
+      {
+        "id": 2,
+        "name": "Guerra Barrera"
+      }
+    ],
+    "greeting": "Hello, Lorie Wilkinson! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

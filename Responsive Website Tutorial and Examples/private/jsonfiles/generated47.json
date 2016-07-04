@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "576b75c9697b49d57a8b56bb",
+    "index": 0,
+    "guid": "f3b62147-f1e3-4045-a5c0-3c536d0fab55",
+    "isActive": true,
+    "balance": "$1,190.49",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": "Carolina Sparks",
+    "gender": "female",
+    "company": "GOLISTIC",
+    "email": "carolinasparks@golistic.com",
+    "phone": "+1 (996) 490-2925",
+    "address": "561 Brighton Avenue, Ellerslie, Maryland, 3578",
+    "about": "Laboris in fugiat ullamco eu culpa voluptate tempor non. Adipisicing sint cillum excepteur aliqua aute ad non esse veniam. Aliquip et voluptate labore incididunt irure. Deserunt officia ut officia esse quis amet consectetur anim duis culpa nisi.\r\n",
+    "registered": "2015-05-03",
+    "latitude": -11.903963,
+    "longitude": 7.380766,
+    "tags": [
+      "laborum",
+      "tempor",
+      "aliqua",
+      "ipsum",
+      "qui",
+      "ut",
+      "cupidatat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jenna Stark"
+      },
+      {
+        "id": 1,
+        "name": "Burns Dickson"
+      },
+      {
+        "id": 2,
+        "name": "Richards Ruiz"
+      }
+    ],
+    "greeting": "Hello, Carolina Sparks! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b75c94411e30d705230bd",
+    "index": 1,
+    "guid": "0fd6aeab-6394-4c61-b97f-9cc288cf00de",
+    "isActive": true,
+    "balance": "$2,589.73",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "green",
+    "name": "Meghan Macias",
+    "gender": "female",
+    "company": "RONBERT",
+    "email": "meghanmacias@ronbert.com",
+    "phone": "+1 (830) 503-2821",
+    "address": "246 Suydam Street, Spelter, Nevada, 3106",
+    "about": "Quis mollit consequat nisi esse nulla in. Proident proident fugiat occaecat consequat nostrud. Mollit exercitation excepteur duis laboris exercitation nulla adipisicing culpa veniam id eiusmod.\r\n",
+    "registered": "2015-02-22",
+    "latitude": 34.946815,
+    "longitude": -26.133207,
+    "tags": [
+      "culpa",
+      "duis",
+      "nisi",
+      "sunt",
+      "velit",
+      "quis",
+      "magna"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Susanna Flynn"
+      },
+      {
+        "id": 1,
+        "name": "Melinda Green"
+      },
+      {
+        "id": 2,
+        "name": "Evangeline Austin"
+      }
+    ],
+    "greeting": "Hello, Meghan Macias! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b75c962aff33c10e9f440",
+    "index": 2,
+    "guid": "6977eeb2-ce88-4441-b761-ffd565edcca4",
+    "isActive": false,
+    "balance": "$3,622.28",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "brown",
+    "name": "Hazel Schmidt",
+    "gender": "female",
+    "company": "SARASONIC",
+    "email": "hazelschmidt@sarasonic.com",
+    "phone": "+1 (962) 456-3956",
+    "address": "848 Wyckoff Avenue, Concho, Pennsylvania, 2191",
+    "about": "Veniam deserunt anim ullamco voluptate nostrud quis laboris consectetur cupidatat exercitation ad. Eiusmod qui aliquip adipisicing labore voluptate sint. Duis aute amet irure adipisicing magna excepteur Lorem in laborum. Quis occaecat pariatur amet dolor nisi aliquip sit ex.\r\n",
+    "registered": "2015-11-18",
+    "latitude": -6.237124,
+    "longitude": -28.588221,
+    "tags": [
+      "consectetur",
+      "aliquip",
+      "consectetur",
+      "cupidatat",
+      "do",
+      "cillum",
+      "dolor"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sadie Harrell"
+      },
+      {
+        "id": 1,
+        "name": "Nora Vargas"
+      },
+      {
+        "id": 2,
+        "name": "Pickett Conner"
+      }
+    ],
+    "greeting": "Hello, Hazel Schmidt! You have 1 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "576b75c996748b14dd6572b9",
+    "index": 3,
+    "guid": "267cc732-6780-4a44-8d3c-8ee8d4cfb7e7",
+    "isActive": true,
+    "balance": "$2,055.65",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Peterson Hahn",
+    "gender": "male",
+    "company": "MICROLUXE",
+    "email": "petersonhahn@microluxe.com",
+    "phone": "+1 (874) 424-2027",
+    "address": "403 Throop Avenue, Draper, West Virginia, 4692",
+    "about": "Non id eiusmod elit officia ut qui sit. Id in officia sit incididunt. Dolor cillum in velit et exercitation minim Lorem ad exercitation minim. Velit ad veniam commodo ullamco exercitation veniam laborum labore id proident proident minim ea sint. Elit et dolore elit irure elit laboris fugiat consequat.\r\n",
+    "registered": "2015-04-29",
+    "latitude": -43.024507,
+    "longitude": -15.987744,
+    "tags": [
+      "cupidatat",
+      "do",
+      "nisi",
+      "esse",
+      "occaecat",
+      "incididunt",
+      "duis"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Strickland Pacheco"
+      },
+      {
+        "id": 1,
+        "name": "Michelle Vance"
+      },
+      {
+        "id": 2,
+        "name": "Kristie Forbes"
+      }
+    ],
+    "greeting": "Hello, Peterson Hahn! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b75c91a523836a370fe35",
+    "index": 4,
+    "guid": "56668102-6c15-4869-be7d-d0836df178c5",
+    "isActive": false,
+    "balance": "$2,653.31",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "green",
+    "name": "Rhoda Riddle",
+    "gender": "female",
+    "company": "EXOSIS",
+    "email": "rhodariddle@exosis.com",
+    "phone": "+1 (912) 401-2168",
+    "address": "835 Amber Street, Jeff, Alaska, 8816",
+    "about": "Labore deserunt et labore excepteur aliqua. Enim officia ea veniam cupidatat laborum incididunt. Irure quis aute est veniam adipisicing ex commodo ea incididunt. Fugiat reprehenderit exercitation consequat ut ex sint adipisicing laboris in pariatur do. Cupidatat elit labore enim aliquip exercitation non.\r\n",
+    "registered": "2016-06-06",
+    "latitude": 22.291337,
+    "longitude": -139.987615,
+    "tags": [
+      "cillum",
+      "in",
+      "dolor",
+      "mollit",
+      "eu",
+      "pariatur",
+      "laboris"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Doris Clay"
+      },
+      {
+        "id": 1,
+        "name": "Deidre Conrad"
+      },
+      {
+        "id": 2,
+        "name": "Karla Ray"
+      }
+    ],
+    "greeting": "Hello, Rhoda Riddle! You have 1 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

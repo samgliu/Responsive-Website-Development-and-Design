@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "576b75897adf9ed9a59407b2",
+    "index": 0,
+    "guid": "4f488c7b-4029-42f1-b45c-31940115f136",
+    "isActive": true,
+    "balance": "$3,968.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": "Raymond Calhoun",
+    "gender": "male",
+    "company": "FROLIX",
+    "email": "raymondcalhoun@frolix.com",
+    "phone": "+1 (983) 473-2640",
+    "address": "716 Milford Street, Lund, Alabama, 4727",
+    "about": "In laborum Lorem duis aute dolor ea deserunt nulla aliquip laborum dolore sit aliqua. Amet quis incididunt pariatur eu est eiusmod ad officia culpa. Esse veniam labore ad eu.\r\n",
+    "registered": "2015-01-23",
+    "latitude": -64.547153,
+    "longitude": 42.28639,
+    "tags": [
+      "sit",
+      "ipsum",
+      "ullamco",
+      "anim",
+      "aliquip",
+      "labore",
+      "mollit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ray Ford"
+      },
+      {
+        "id": 1,
+        "name": "Mindy Bean"
+      },
+      {
+        "id": 2,
+        "name": "Letitia Powell"
+      }
+    ],
+    "greeting": "Hello, Raymond Calhoun! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b7589fd3f8eb1ae3f1039",
+    "index": 1,
+    "guid": "35b6c72e-c90c-4aba-a0b7-94925609b0c1",
+    "isActive": false,
+    "balance": "$1,554.41",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "blue",
+    "name": "Steele Reese",
+    "gender": "male",
+    "company": "NEUROCELL",
+    "email": "steelereese@neurocell.com",
+    "phone": "+1 (957) 429-3628",
+    "address": "933 Agate Court, Convent, Wisconsin, 4197",
+    "about": "Ipsum incididunt dolore nisi minim sunt fugiat non nostrud ipsum. Elit esse veniam Lorem fugiat amet laborum incididunt. Commodo labore do mollit do consectetur est eu eiusmod excepteur. Adipisicing laborum consectetur occaecat minim.\r\n",
+    "registered": "2014-05-20",
+    "latitude": 27.228119,
+    "longitude": -83.900275,
+    "tags": [
+      "aliquip",
+      "sint",
+      "exercitation",
+      "velit",
+      "irure",
+      "aute",
+      "ad"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ellis Mccormick"
+      },
+      {
+        "id": 1,
+        "name": "Shaffer Levine"
+      },
+      {
+        "id": 2,
+        "name": "Nielsen Merrill"
+      }
+    ],
+    "greeting": "Hello, Steele Reese! You have 9 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b7589ef334c952799ac92",
+    "index": 2,
+    "guid": "5ffa12ba-748c-4b75-b05b-6bc68788aad9",
+    "isActive": true,
+    "balance": "$3,089.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Roy Noble",
+    "gender": "male",
+    "company": "PROVIDCO",
+    "email": "roynoble@providco.com",
+    "phone": "+1 (956) 507-2873",
+    "address": "608 Bowne Street, Waterford, North Carolina, 7626",
+    "about": "Anim cupidatat pariatur laborum sit non excepteur occaecat adipisicing cillum voluptate ipsum pariatur. Aliquip ea elit Lorem nisi dolore excepteur occaecat mollit mollit velit aliquip esse ex incididunt. Reprehenderit voluptate proident dolore qui. Anim sunt deserunt fugiat voluptate minim magna eu dolor esse laborum mollit ex do. Nisi Lorem anim exercitation irure aute id aliquip sint et. Ut ad labore tempor ad minim consequat labore quis proident eu mollit laborum qui.\r\n",
+    "registered": "2015-12-05",
+    "latitude": -78.986748,
+    "longitude": -124.604056,
+    "tags": [
+      "duis",
+      "ut",
+      "reprehenderit",
+      "sint",
+      "adipisicing",
+      "do",
+      "occaecat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Booth Montoya"
+      },
+      {
+        "id": 1,
+        "name": "Jacquelyn Colon"
+      },
+      {
+        "id": 2,
+        "name": "Millicent Mccall"
+      }
+    ],
+    "greeting": "Hello, Roy Noble! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "576b7589e3d0e9497147db73",
+    "index": 3,
+    "guid": "881d58b4-60c3-426e-9629-12930fc941c2",
+    "isActive": false,
+    "balance": "$3,289.40",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Velez Vaughan",
+    "gender": "male",
+    "company": "DARWINIUM",
+    "email": "velezvaughan@darwinium.com",
+    "phone": "+1 (973) 496-2204",
+    "address": "805 Butler Place, Dyckesville, Maryland, 7166",
+    "about": "Non ipsum incididunt occaecat non veniam pariatur veniam voluptate eu ut occaecat. Non est ullamco dolore ullamco aute Lorem aliqua sit amet dolore ipsum. Deserunt aliquip est do nulla officia eu ipsum. Ullamco ullamco laboris elit et. Duis duis ad dolore quis laborum enim.\r\n",
+    "registered": "2014-05-24",
+    "latitude": 85.995597,
+    "longitude": 152.874611,
+    "tags": [
+      "fugiat",
+      "est",
+      "nisi",
+      "dolore",
+      "laboris",
+      "duis",
+      "ea"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lloyd Hodges"
+      },
+      {
+        "id": 1,
+        "name": "Stokes Johnston"
+      },
+      {
+        "id": 2,
+        "name": "Julia Melton"
+      }
+    ],
+    "greeting": "Hello, Velez Vaughan! You have 2 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "576b7589340891432c5b1413",
+    "index": 4,
+    "guid": "b42ed552-45bf-4c20-9215-bd4b40e5c238",
+    "isActive": true,
+    "balance": "$2,592.46",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Ana Stevenson",
+    "gender": "female",
+    "company": "SOLGAN",
+    "email": "anastevenson@solgan.com",
+    "phone": "+1 (877) 461-2146",
+    "address": "858 Gain Court, Eastmont, Massachusetts, 5268",
+    "about": "Commodo reprehenderit labore aliquip incididunt pariatur adipisicing tempor cupidatat magna dolore non ad cupidatat. Esse consectetur laborum cillum laboris fugiat quis magna Lorem adipisicing dolore magna labore sint aliquip. Dolore ut et consectetur minim cupidatat proident sint Lorem nisi officia culpa. Tempor laborum in aliquip incididunt sunt minim nostrud esse eu. Non officia fugiat aute nulla tempor laboris sint ut anim. Laboris veniam sunt nostrud pariatur officia voluptate sunt exercitation laborum. Cupidatat aliquip dolor non pariatur dolor.\r\n",
+    "registered": "2015-03-03",
+    "latitude": 49.822518,
+    "longitude": -15.040308,
+    "tags": [
+      "mollit",
+      "excepteur",
+      "ipsum",
+      "laboris",
+      "ut",
+      "nulla",
+      "fugiat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Shannon Fry"
+      },
+      {
+        "id": 1,
+        "name": "Hyde Willis"
+      },
+      {
+        "id": 2,
+        "name": "Melisa Koch"
+      }
+    ],
+    "greeting": "Hello, Ana Stevenson! You have 1 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]

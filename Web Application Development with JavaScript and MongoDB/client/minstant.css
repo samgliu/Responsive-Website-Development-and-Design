@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+
+.user_avatar{
+	min-height:100px;
+	text-align: center;
+
+}
+.avatar_img{
+	height:75px;
+}
+.chat_avatar_img{
+	height:25px;
+}
+img.emoji {
+  height: 1.7em;
+  width: 1.7em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}

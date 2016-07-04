@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+.hidden_div{
+	display:none;
+}
+
+li {
+	margin:1rem;
+}
+
+#loginbtn{
+	display:inline-block;
+	margin:1rem;
+	font-size:2rem;
+	float:left;
+}
+
+body{
+	padding-top:6rem;
+}

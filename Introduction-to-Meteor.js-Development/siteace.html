@@ -1,0 +1,170 @@
+<head>
+  <title>siteace</title>
+</head>
+
+<body>
+
+</body>
+
+<template name="ApplicationLayout">
+  {{> yield "navbar"}}
+  {{> yield "bodypage"}}
+  {{> yield "comment_count"}}
+</template>
+
+<template name="navbar">
+	<!-- navbar  - you will be putting the login functions here -->
+	<nav class="navbar navbar-default  navbar-fixed-top">
+	    <div id='loginbtn'>
+		    {{> loginButtons}}
+		</div>
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        Site Ace
+	      </a>
+	    </div>
+	  </div>
+	</nav>
+</template>
+
+<template name="main">
+	<div class="container">
+		{{> website_form}}
+		{{> website_list}}
+	</div>
+</template>
+
+<template name="website_form">
+	<a class="btn btn-default js-toggle-website-form" href="#">
+  		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	</a>
+	<div id="website_form" class="hidden_div">
+		<form class="js-save-website-form">
+		  <div class="form-group">
+		    <label for="url">Site address</label>
+		    <input type="text" class="form-control" id="url" placeholder="http://www.mysite.com">
+		  </div>
+		  <input type="button" class="btn btn-success" id="autofill" value="Autofill form below" >
+		  <div class="form-group">
+		    <label for="title">Title</label>
+		    <input type="text" class="form-control" id="title" placeholder="Mysite">
+		  </div>
+		    <div class="form-group">
+		    <label for="description">Description</label>
+		    <input type="text" class="form-control" id="description" placeholder="I found this site really useful for ...">
+		  </div>
+
+		  <button type="submit" class="btn btn-success">Submit</button>
+		  <button type="Cancel" class="btn btn-warning js-cancel-website-form">Cancel</button>
+		</form>
+	</div>
+</template>
+
+<!-- template that displays several website items -->
+<template name="website_list">
+	<ol>
+	{{#each websites}}
+	{{>website_item}}
+	{{/each}}
+	</ol>
+</template>
+
+<!-- template that displays individual website entries -->
+<template name="website_item">
+<div class="container">
+<div class="row">
+<li>
+	<a href="{{url}}">{{title}}</a>
+
+	
+	<p>
+		{{description}}
+	</p>
+	<p>
+		Created On :{{createdOn}}
+	</p>
+    <a href="/detail/{{_id}}">Comments({{> comment_count}})</a><br/>
+	<a href="#" class="btn btn-default js-upvote">
+		<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+	</a>
+	<p>Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;votes: {{uprating}}</p>
+	<p>Down votes: {{downrating}}</p>
+	<a href="#" class="btn btn-default js-downvote">
+		<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+	</a>
+	<!-- you will be putting your up and down vote buttons in here! -->
+</li>
+</div>
+</div>
+</template>
+
+<template name="comment_count">
+{{comment_count_data}}
+</template>
+
+<template name="detail">
+	<div class="container">
+	  <div class="row">
+	  	<a href="{{url}}"><h3>{{title}}</h3></a>
+    	<p>
+		  Website description: {{description}}
+	    </p>
+	    <p>
+		  Created: {{createdOn}}
+	    </p>
+	   </div>
+	  <div class="comment-section" id="comment">
+	      {{> comment_form}}
+		  {{> comment_list}}
+	  </div>
+	</div>
+</template>
+
+<!--comment section -->
+<template name="comment_form">
+	<a class="btn btn-default js-toggle-comment-form" href="#">
+  		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	</a>
+	<div id="comment_form" class="hidden_div">
+		<form class="js-save-comment-form">
+		  <div class="form-group">
+		    <label for="url">Site address</label>
+		    <input type="text" class="form-control" id="url" value="{{url}}" readonly>
+		  </div>
+		  <div class="form-group">
+		    <label for="title">Title</label>
+		    <input type="text" class="form-control" id="title" value="{{title}}" readonly>
+		  </div>
+		  <div class="form-group">
+		    <label for="comment">Comments</label>
+		    <input type="text" class="form-control" id="comment" placeholder="I love this site for: ">
+		  </div>
+		  <button type="submit" class="btn btn-success">Submit</button>
+		  <button type="Cancel" class="btn btn-warning js-cancel-comment-form">Cancel</button>
+		</form>
+	</div>
+</template>
+
+<!-- template that displays several website items -->
+<template name="comment_list">
+	<ul class="list-group">
+	{{#each comments}}
+	{{>comment_item}}
+	{{/each}}
+	</ul>
+</template>
+
+<!-- template that displays individual website entries -->
+<template name="comment_item">
+<div class="container">
+<div class="row">
+  <li class="list-group-item">
+  	<p>URL: {{url}}</p>
+  	<p>Title: {{title}}</p>
+  	<p>Created On:{{createdOn}}</p>
+	<p>Comment: {{comment}}</p>
+  </li>
+</div>
+</div>
+</template>

@@ -1,0 +1,104 @@
+<template name="ApplicationLayout">
+  {{> yield "header"}}
+  
+  <div class="container">
+  {{> yield "main"}}
+  </div>
+</template>
+
+<head>
+  <title>Data Viz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="vis.js"></script>
+</head>
+
+<template name="navbar">
+
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Data Viz</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="/viz">Viz Tool</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+
+<body>
+
+<div class="container">
+
+</div>
+
+</body>
+
+<template name="home">
+  <div class="container">
+  	<div>
+    <img src="https://andrewpinkham.files.wordpress.com/2014/01/superman-flying-mos.jpg" class="col-sm-12 col-md-6 img-thumbnail">
+	</div>
+    <div>
+	<blockquote>
+    <p> Welcome To Data Visualization. Click On Viz Tool to start!</p>
+	</blockquote>
+    </div>
+  </div>
+</template>
+
+
+<template name="data_viz">
+<div class="row">
+	<div class="col-md-6">
+			{{> data_viz_controls}}
+			{{> data_feature_list}}
+	</div>
+	<div class="col-md-6">
+			{{> data_vizjs}}
+	</div>
+  <div class="col-md-6">
+      <p id="instruction"></p>
+  </div>
+</div>
+
+</template>
+
+<template name="data_viz_controls">
+	<form>
+		<!-- list of available single features -->
+		Features:(Please select a feature first)
+		<br/>
+		<select class="js-select-single-feature"> <!-- list of people -->
+			some feature
+   			{{#each features}}
+			<option value="{{name}}">{{feature}}</option>
+			{{/each}}
+		</select>
+
+		<button class="btn js-show-Graph2d" disabled='disabled'>Line</button><!--viz format-->
+    <button class="btn js-show-Graph2d-points" disabled='disabled'>Points</button><!--viz format-->
+		<button class="btn js-show-network1" disabled='disabled'>Group Figure</button><!--viz format-->
+    <button class="btn js-show-network2" disabled='disabled'>Using Edges</button><!--viz format-->
+    <button class="btn js-show-Graph2d-registered" disabled='disabled'>Graph2d for registered</button><!--btn for other-->
+	</form>
+</template>	
+
+
+<template name="data_feature_list">
+	<ul>
+  {{#each getnamedata}}
+	<li>{{name}}</li>
+  {{/each}}
+	</ul>
+</template>
+
+<template name="data_vizjs">
+	<div id="visjs"></div>
+</template>
+
